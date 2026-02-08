@@ -106,15 +106,34 @@ https://my.telegram.org
 
 ### 2️⃣ Gerar string_session
 
-```python
-from telethon.sync import TelegramClient
-from telethon.sessions import StringSession
+```## 🔑 GERAR STRING_SESSION PELO BOT (MÉTODO RECOMENDADO)
 
-api_id = SEU_API_ID
-api_hash = "SEU_API_HASH"
+Para facilitar a configuração, você pode gerar sua **string_session** usando o bot **Smart Util**, sem precisar rodar scripts.
 
-with TelegramClient(StringSession(), api_id, api_hash) as client:
-    print(client.session.save())
+🔗 Bot oficial: https://t.me/SmartUtilBot  
+
+### Passo a passo completo:
+
+1. Abra o bot **Smart Util** no Telegram  
+2. Envie o comando: /tele
+3. Clique em **Start**  
+4. Envie seu **API_ID**  
+5. Envie seu **API_HASH**  
+6. Envie seu número de telefone com DDI  
+Exemplo: +5511999999999
+7. O Telegram enviará um código de verificação  
+8. Envie o código **com espaços entre os números**  
+Exemplo:  
+Código recebido: `123456`  
+Envie no bot: 1 2 3 4 5 6
+9. O bot irá gerar sua **STRING_SESSION**  
+10. Copie a string e cole no arquivo `main.py`
+
+⚠️ **Importante:**  
+- Não compartilhe sua string_session  
+- Quem tiver acesso a ela controla sua conta Telegram  
+
+Esse método é o mais simples e recomendado para iniciantes.
 ```
 
 Copie a string gerada.
