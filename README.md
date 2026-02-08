@@ -43,7 +43,7 @@ pkg install python git -y
 
 ### 3️⃣ Clonar o projeto
 ```bash
-git clone https://github.com/seu-usuario/telegrab-dl.git
+git clone https://github.com/Nagorlz/NagoDL.git
 cd telegrab-dl
 ```
 
