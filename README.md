@@ -44,7 +44,7 @@ pkg install python git -y
 ### 3️⃣ Clonar o projeto
 ```bash
 git clone https://github.com/Nagorlz/NagoDL.git
-cd telegrab-dl
+cd NagoDL
 ```
 
 ### 4️⃣ Criar ambiente virtual
@@ -75,7 +75,7 @@ apt install python3 python3-venv python3-pip git -y
 ### 3️⃣ Clonar o projeto
 ```bash
 git clone https://github.com/Nagorlz/NagoDL.git
-cd telegrab-dl
+cd NagoDL
 ```
 
 ### 4️⃣ Criar ambiente virtual
